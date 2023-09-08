@@ -25,7 +25,6 @@ match command:
         decoding = ""
         x = x.split("0x")
         for i in x[1:]: 
-            print(i)
             i = int(i, base = 16)
             i = chr(i)
             decoding = decoding + i
