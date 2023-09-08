@@ -5,5 +5,8 @@ for x in range(1,11):
     while x > 0:
         y =  str(x) + " " + y 
         x = x-1
+
+    y = y[:-1]
+
     print(y)
 
