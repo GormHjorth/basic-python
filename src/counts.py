@@ -12,6 +12,12 @@ for line in sys.stdin:
 x = x.replace("\n", "")
 
 count = {}
+for i in x:
+    if i in count:
+        count[i] = count[i] + 1
+    else: 
+        count[i] = 1
+
 # Count the characters in `x`` and put the counts in `counts`.
 # Your code goes here.
 
