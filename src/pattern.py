@@ -10,3 +10,4 @@ for x in range(4,-5,-1):
         y = "*" + " " + y
         x = x-1
     print(y)
+    

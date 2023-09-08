@@ -6,3 +6,4 @@ for x in range(1,11):
         y =  str(x) + " " + y 
         x = x-1
     print(y)
+

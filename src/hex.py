@@ -20,3 +20,4 @@ match command:
         # Implement the decoding here
         decoding = ""
         print(decoding)
+        

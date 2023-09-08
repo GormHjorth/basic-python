@@ -26,3 +26,4 @@ for i in x:
 # and print the count
 for a in sorted(count):
     print(f"{a}: {count[a]}")
+    

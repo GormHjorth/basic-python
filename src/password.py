@@ -31,5 +31,6 @@ for x in password:
 
 if lower and upper and numeric and other and length == True:
     is_valid = True
+    
 
 print(is_valid)
