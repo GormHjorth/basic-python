@@ -38,7 +38,6 @@ def print_list(x):
 if len(sys.argv) < 2:
     print("Incorrect number of arguments.", file=sys.stderr)
     sys.exit(1)
-    
 
 match sys.argv[1]:
     case "mean":
