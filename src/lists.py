@@ -51,7 +51,7 @@ match sys.argv[1]:
         # Put your solution to the second exercise here
         times_three = []
         for i in x:
-            times_three = times_three + (i * 3)
+            times_three.append(i*3)
         print_list(times_three)
 
     case "even":
@@ -59,7 +59,7 @@ match sys.argv[1]:
         even = []
         for i in x:
             if i % 2 == 0:
-                even = even + i
+                even.append(i)
         print_list(even)
 
     case _:
